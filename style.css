@@ -1,0 +1,113 @@
+.hidden{
+  display: none;
+}
+
+body{
+  font-family:"Nanum Pen Script", cursive;
+  text-align: center;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 200px;
+}
+
+#login-form{
+  position: relative;
+  padding: 20px;
+}
+
+#login-form input{
+  position: relative;
+  border-radius: 8px;
+}
+
+#login-form button{
+  position: relative;
+}
+
+#clock{
+  font-family: "Nanum Pen Script", cursive;
+  position: relative;
+  top: 70px;
+  font-size: 180px;
+  font-weight: 400;
+  color: burlywood;
+  font-style: normal;
+  margin-bottom: 100px;
+}
+
+#greeting{
+  position: relative;
+  font-family:"Nanum Pen Script", cursive;
+  font-size: 50px;
+  font-weight: bold;
+  color: blue;
+}
+
+#quote span{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#weather span{
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#todo-form{
+  display: block;
+  padding: auto;
+  margin: auto;
+  width: 1400px;
+}
+
+#todo-form input{
+  scale: 1.2;
+  border-radius: 8px;
+}
+
+#todo-list button{
+  margin-left:10px;
+        background-color:rgba(255,255,255,0);
+        outline: none;
+        color:red;
+        font-weight: 700;
+        width:30px;
+        height:30px;
+        border:none;
+        font-size: 1.2rem;
+}
+
+#todo-list{
+  font-size: 25px;
+  width: auto;
+  list-style-position: inside;
+}
+
+#todo-list li{
+  position: relative;
+  left: -35px;
+}
+
+#quote{
+  padding: 50px 20px 20px;
+  display: block;
+}
+
+#Log-out{
+  margin-top: 10px;
+  font-family: serif;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
